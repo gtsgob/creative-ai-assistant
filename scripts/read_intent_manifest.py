@@ -11,3 +11,4 @@ with urllib.request.urlopen(SOLVAY_RAW_URL, timeout=10) as r:
 mood = data.get("emotional_state", "Neutral")
 mode = data.get("output_mode", "Plain")
 print(f"[Solvay Bridge] mood={mood} mode={mode} deltaH={data.get('deltaH')} LSSE={data.get('LSSE')}")
+SOLVAY_RAW_URL = https://raw.githubusercontent.com/gtsgob/Solvey-resonance/refs/heads/main/data/metrics/intent_manifest.json
